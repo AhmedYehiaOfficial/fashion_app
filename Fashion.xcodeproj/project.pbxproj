@@ -10,6 +10,7 @@
 		40D58DE6B723A29E0E648B85 /* Pods_Fashion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86FEC4AF3FDF9B19B35B77C /* Pods_Fashion.framework */; };
 		4952999D330B9627BE4922C0 /* Pods_Fashion_FashionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB39D97A3CA2E65E6405518 /* Pods_Fashion_FashionUITests.framework */; };
 		9A9010A597461E1375BE5690 /* Pods_FashionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F69724101E9AB99C617829 /* Pods_FashionTests.framework */; };
+		E303499529DA256B00961022 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E303499429DA256B00961022 /* FilterVC.swift */; };
 		E30A881A29D5D35300F1667A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881929D5D35300F1667A /* AppDelegate.swift */; };
 		E30A881C29D5D35300F1667A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881B29D5D35300F1667A /* SceneDelegate.swift */; };
 		E30A881E29D5D35300F1667A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881D29D5D35300F1667A /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 		C6D2580E1BA2663711E4463A /* Pods-FashionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionTests.debug.xcconfig"; path = "Target Support Files/Pods-FashionTests/Pods-FashionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D88AFCCC8BA54BDEEFD71D25 /* Pods-Fashion-FashionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashion-FashionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fashion-FashionUITests/Pods-Fashion-FashionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB39D97A3CA2E65E6405518 /* Pods_Fashion_FashionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashion_FashionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E303499429DA256B00961022 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 		E30A881629D5D35300F1667A /* Fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A881929D5D35300F1667A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30A881B29D5D35300F1667A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				E325FF5729D719A200F08541 /* SignInSuccessfulVC.swift */,
 				E325FF5C29D719FF00F08541 /* SplashScreenVC.swift */,
 				E3EF86C829D8AB45008B5A94 /* HomeVC.swift */,
+				E303499429DA256B00961022 /* FilterVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				E30A882429D5D35300F1667A /* Fashion.xcdatamodeld in Sources */,
 				E37D71F129D61E490076F6F0 /* LogInVC.swift in Sources */,
 				E39AE7D129D7287E0017B4E3 /* OnboardingSliderDetails.swift in Sources */,
+				E303499529DA256B00961022 /* FilterVC.swift in Sources */,
 				E30A881E29D5D35300F1667A /* ViewController.swift in Sources */,
 				E30A881A29D5D35300F1667A /* AppDelegate.swift in Sources */,
 				E30A881C29D5D35300F1667A /* SceneDelegate.swift in Sources */,

@@ -27,7 +27,6 @@ class HomeVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSou
     let brandName = ["Addidas","Addidas","Addidas","Addidas","Addidas","Addidas",]
     let productType = ["bag","bag","bag","bag","bag","bag",]
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        MARK:Offers
