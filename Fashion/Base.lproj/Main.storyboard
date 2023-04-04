@@ -617,7 +617,7 @@ more beautiful with this app.</string>
         <!--FilterVC-->
         <scene sceneID="b5h-HC-29B">
             <objects>
-                <viewController id="L2F-Vf-X4W" customClass="FilterVC" customModule="Fashion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="L2F-Vf-X4W" customClass="FilterVC" customModule="Fashion" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zj0-Fr-BNI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -678,6 +678,140 @@ more beautiful with this app.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="R5Q-zR-dZg">
+                                <rect key="frame" x="25" y="611" width="200" height="170"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NId-Il-vEm" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="42.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="1" green="0.6705882352941176" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDf-Oy-M6t" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="0.0" y="42.5" width="200" height="42.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7z-og-gq9" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="0.0" y="85" width="200" height="42.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nj-hY-MLG" customClass="CosmosView" customModule="Cosmos">
+                                        <rect key="frame" x="0.0" y="127.5" width="200" height="42.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.56078431370000004" green="0.58431372550000005" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="Bz4-bz-KF9"/>
+                                    <constraint firstAttribute="width" constant="200" id="Fvj-Si-Yj4"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Jz-9B-4dz" customClass="RangeSeekSlider" customModule="RangeSeekSlider">
+                                <rect key="frame" x="25" y="370" width="364" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                        <real key="value" value="1750"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedMinValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedMaxValue">
+                                        <real key="value" value="1750"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="minLabelColor">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="handleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="handleBorderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colorBetweenHandles">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="disableRange" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="step">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedHandleDiameterMultiplier">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="handleBorderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelPadding">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hideLabels" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="labelsFixed" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minDistance">
+                                        <real key="value" value="500"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="maxLabelColor">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="handleDiameter">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="colorOutHandles">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IqI-5B-dPW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -685,23 +819,100 @@ more beautiful with this app.</string>
                             <constraint firstItem="SNr-SL-xiV" firstAttribute="top" secondItem="EDn-z6-eNy" secondAttribute="bottom" constant="100" id="65e-En-RdJ"/>
                             <constraint firstItem="nJL-Ag-AXU" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="7lz-jP-dkz"/>
                             <constraint firstItem="EVD-9r-AZx" firstAttribute="top" secondItem="SNr-SL-xiV" secondAttribute="bottom" constant="100" id="9Hs-IJ-FIB"/>
+                            <constraint firstItem="4Jz-9B-4dz" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="L4a-eZ-3o9"/>
                             <constraint firstItem="IqI-5B-dPW" firstAttribute="trailing" secondItem="fte-Qc-YSA" secondAttribute="trailing" constant="25" id="RYQ-fH-52h"/>
+                            <constraint firstItem="IqI-5B-dPW" firstAttribute="trailing" secondItem="4Jz-9B-4dz" secondAttribute="trailing" constant="25" id="SPN-Lf-624"/>
                             <constraint firstItem="EVD-9r-AZx" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="SYJ-1C-JuN"/>
                             <constraint firstItem="EDn-z6-eNy" firstAttribute="top" secondItem="FVD-si-obj" secondAttribute="bottom" constant="160" id="SlE-4g-cdO"/>
+                            <constraint firstItem="R5Q-zR-dZg" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="Tve-GA-8cd"/>
+                            <constraint firstItem="R5Q-zR-dZg" firstAttribute="top" secondItem="EVD-9r-AZx" secondAttribute="bottom" constant="15" id="Unz-el-Zro"/>
                             <constraint firstItem="SNr-SL-xiV" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="Wkw-Ak-pE9"/>
                             <constraint firstItem="IqI-5B-dPW" firstAttribute="trailing" secondItem="nJL-Ag-AXU" secondAttribute="trailing" constant="25" id="avZ-jD-3jk"/>
                             <constraint firstItem="nJL-Ag-AXU" firstAttribute="top" secondItem="IqI-5B-dPW" secondAttribute="top" constant="50" id="dxd-lX-a6z"/>
                             <constraint firstItem="fte-Qc-YSA" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="e4o-7S-lHH"/>
+                            <constraint firstItem="SNr-SL-xiV" firstAttribute="top" secondItem="4Jz-9B-4dz" secondAttribute="bottom" constant="15" id="eNG-uo-HFy"/>
                             <constraint firstAttribute="bottom" secondItem="fte-Qc-YSA" secondAttribute="bottom" constant="50" id="eNq-Zm-Dzy"/>
                             <constraint firstItem="FVD-si-obj" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="fxC-Le-tP0"/>
                             <constraint firstItem="FVD-si-obj" firstAttribute="top" secondItem="nJL-Ag-AXU" secondAttribute="bottom" constant="25" id="gMV-6b-A8K"/>
+                            <constraint firstItem="4Jz-9B-4dz" firstAttribute="top" secondItem="EDn-z6-eNy" secondAttribute="bottom" constant="15" id="qxN-c2-7gn"/>
                             <constraint firstItem="EDn-z6-eNy" firstAttribute="leading" secondItem="IqI-5B-dPW" secondAttribute="leading" constant="25" id="tbc-oD-u4e"/>
                         </constraints>
                     </view>
                 </viewController>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="U1S-j7-FQV">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="170"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrh-sD-IZU">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="42.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                    <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iwg-I7-Q1p">
+                            <rect key="frame" x="0.0" y="42.5" width="200" height="42.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                    <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKd-xY-EYr">
+                            <rect key="frame" x="0.0" y="85" width="200" height="42.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                    <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHu-wG-mtd">
+                            <rect key="frame" x="0.0" y="127.5" width="200" height="42.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                    <color key="value" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="O1d-p3-iKl"/>
+                    <color key="backgroundColor" red="0.56078431370000004" green="0.58431372550000005" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="LMr-18-vut"/>
+                        <constraint firstAttribute="height" constant="170" id="RMh-FC-tbs"/>
+                    </constraints>
+                </stackView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HO2-xi-mp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1806" y="1409"/>
+            <point key="canvasLocation" x="1805.7971014492755" y="1408.9285714285713"/>
         </scene>
         <!--Sign UpVC-->
         <scene sceneID="Phn-gN-yMv">
@@ -983,6 +1194,23 @@ our app and start working in it.</string>
             <point key="canvasLocation" x="2413.04347826087" y="734.59821428571422"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="0nj-hY-MLG">
+            <size key="intrinsicContentSize" width="45" height="20"/>
+        </designable>
+        <designable name="4Jz-9B-4dz">
+            <size key="intrinsicContentSize" width="-1" height="65"/>
+        </designable>
+        <designable name="NId-Il-vEm">
+            <size key="intrinsicContentSize" width="120" height="20"/>
+        </designable>
+        <designable name="e7z-og-gq9">
+            <size key="intrinsicContentSize" width="70" height="20"/>
+        </designable>
+        <designable name="fDf-Oy-M6t">
+            <size key="intrinsicContentSize" width="95" height="20"/>
+        </designable>
+    </designables>
     <resources>
         <image name="appNameblack" width="137" height="83"/>
         <image name="appNamewhite" width="137" height="83"/>

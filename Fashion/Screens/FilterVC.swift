@@ -6,14 +6,13 @@
 //
 
 import UIKit
+import CheckMarkView
 
 class FilterVC: UIViewController {
     static let ID = String(describing: FilterVC.self)
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
+  
 }
