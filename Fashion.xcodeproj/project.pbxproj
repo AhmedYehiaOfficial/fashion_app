@@ -11,12 +11,16 @@
 		4952999D330B9627BE4922C0 /* Pods_Fashion_FashionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB39D97A3CA2E65E6405518 /* Pods_Fashion_FashionUITests.framework */; };
 		9A9010A597461E1375BE5690 /* Pods_FashionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F69724101E9AB99C617829 /* Pods_FashionTests.framework */; };
 		E303499529DA256B00961022 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E303499429DA256B00961022 /* FilterVC.swift */; };
+		E307400D29E6FC44007D2A60 /* ProductCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307400C29E6FC44007D2A60 /* ProductCategoryVC.swift */; };
+		E307401229E70C97007D2A60 /* ProductDeatailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307401129E70C97007D2A60 /* ProductDeatailsVC.swift */; };
+		E307D32C29E4E31100D13DEE /* ProductCategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307D32B29E4E31100D13DEE /* ProductCategoryDetails.swift */; };
+		E307D33329E4E3A900D13DEE /* ProductCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307D33129E4E3A900D13DEE /* ProductCategoryCollectionViewCell.swift */; };
+		E307D33429E4E3A900D13DEE /* ProductCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E307D33229E4E3A900D13DEE /* ProductCategoryCollectionViewCell.xib */; };
 		E30A881A29D5D35300F1667A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881929D5D35300F1667A /* AppDelegate.swift */; };
 		E30A881C29D5D35300F1667A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881B29D5D35300F1667A /* SceneDelegate.swift */; };
 		E30A881E29D5D35300F1667A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A881D29D5D35300F1667A /* ViewController.swift */; };
 		E30A882129D5D35300F1667A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30A881F29D5D35300F1667A /* Main.storyboard */; };
 		E30A882429D5D35300F1667A /* Fashion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E30A882229D5D35300F1667A /* Fashion.xcdatamodeld */; };
-		E30A882629D5D35400F1667A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30A882529D5D35400F1667A /* Assets.xcassets */; };
 		E30A882929D5D35400F1667A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30A882729D5D35400F1667A /* LaunchScreen.storyboard */; };
 		E30A883429D5D35500F1667A /* FashionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A883329D5D35500F1667A /* FashionTests.swift */; };
 		E30A883F29D5D35500F1667A /* FashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A883E29D5D35500F1667A /* FashionUITests.swift */; };
@@ -68,13 +72,17 @@
 		D88AFCCC8BA54BDEEFD71D25 /* Pods-Fashion-FashionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashion-FashionUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fashion-FashionUITests/Pods-Fashion-FashionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB39D97A3CA2E65E6405518 /* Pods_Fashion_FashionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashion_FashionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E303499429DA256B00961022 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		E307400C29E6FC44007D2A60 /* ProductCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryVC.swift; sourceTree = "<group>"; };
+		E307401129E70C97007D2A60 /* ProductDeatailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDeatailsVC.swift; sourceTree = "<group>"; };
+		E307D32B29E4E31100D13DEE /* ProductCategoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryDetails.swift; sourceTree = "<group>"; };
+		E307D33129E4E3A900D13DEE /* ProductCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E307D33229E4E3A900D13DEE /* ProductCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		E30A881629D5D35300F1667A /* Fashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A881929D5D35300F1667A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30A881B29D5D35300F1667A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E30A881D29D5D35300F1667A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E30A882029D5D35300F1667A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E30A882329D5D35300F1667A /* Fashion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fashion.xcdatamodel; sourceTree = "<group>"; };
-		E30A882529D5D35400F1667A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30A882829D5D35400F1667A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30A882A29D5D35400F1667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E30A882F29D5D35500F1667A /* FashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +168,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E307D33029E4E37D00D13DEE /* ProductCategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				E307D33129E4E3A900D13DEE /* ProductCategoryCollectionViewCell.swift */,
+				E307D33229E4E3A900D13DEE /* ProductCategoryCollectionViewCell.xib */,
+			);
+			path = ProductCategoryCell;
+			sourceTree = "<group>";
+		};
 		E30A880D29D5D35300F1667A = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +210,6 @@
 				E30A881B29D5D35300F1667A /* SceneDelegate.swift */,
 				E30A881D29D5D35300F1667A /* ViewController.swift */,
 				E30A881F29D5D35300F1667A /* Main.storyboard */,
-				E30A882529D5D35400F1667A /* Assets.xcassets */,
 				E30A882729D5D35400F1667A /* LaunchScreen.storyboard */,
 				E30A882A29D5D35400F1667A /* Info.plist */,
 				E30A882229D5D35300F1667A /* Fashion.xcdatamodeld */,
@@ -230,6 +246,8 @@
 				E3EF86C829D8AB45008B5A94 /* HomeVC.swift */,
 				E303499429DA256B00961022 /* FilterVC.swift */,
 				E338CA5029DF020F00E8309F /* CategoryVC.swift */,
+				E307400C29E6FC44007D2A60 /* ProductCategoryVC.swift */,
+				E307401129E70C97007D2A60 /* ProductDeatailsVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -263,6 +281,7 @@
 		E39AE7CA29D726770017B4E3 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				E307D33029E4E37D00D13DEE /* ProductCategoryCell */,
 				E338CA5A29DF04FD00E8309F /* CategoryCell */,
 				E31C34A029D9EF79007B3EB6 /* NewArrivalCell */,
 				E3EF86CD29D8AB94008B5A94 /* OfferCell */,
@@ -288,6 +307,7 @@
 				E31C349B29D9EC19007B3EB6 /* NewArrivalDetails.swift */,
 				E3A40DFF29DC7A75000BC646 /* CheckMark.swift */,
 				E338CA5529DF041A00E8309F /* CategoryDetails.swift */,
+				E307D32B29E4E31100D13DEE /* ProductCategoryDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -412,7 +432,7 @@
 				E3EF86D129D8ABD6008B5A94 /* OffersCollectionViewCell.xib in Resources */,
 				E338CA5E29DF053A00E8309F /* CategoryCollectionViewCell.xib in Resources */,
 				E30A882929D5D35400F1667A /* LaunchScreen.storyboard in Resources */,
-				E30A882629D5D35400F1667A /* Assets.xcassets in Resources */,
+				E307D33429E4E3A900D13DEE /* ProductCategoryCollectionViewCell.xib in Resources */,
 				E39AE7E029D72C520017B4E3 /* OnboardingCollectionViewCell.xib in Resources */,
 				E31C34A429D9EFCD007B3EB6 /* NewArrivalCollectionViewCell.xib in Resources */,
 				E30A882129D5D35300F1667A /* Main.storyboard in Resources */,
@@ -546,18 +566,22 @@
 				E37D71F629D61E730076F6F0 /* SignUpVC.swift in Sources */,
 				E3B2C84629D62E26000919E2 /* OnBoardingVC.swift in Sources */,
 				E30A885629D5D82900F1667A /* extension.swift in Sources */,
+				E307401229E70C97007D2A60 /* ProductDeatailsVC.swift in Sources */,
 				E31C349C29D9EC19007B3EB6 /* NewArrivalDetails.swift in Sources */,
 				E325FF5D29D719FF00F08541 /* SplashScreenVC.swift in Sources */,
 				E3EF86C929D8AB45008B5A94 /* HomeVC.swift in Sources */,
 				E3EF86D029D8ABD6008B5A94 /* OffersCollectionViewCell.swift in Sources */,
 				E31C34A329D9EFCD007B3EB6 /* NewArrivalCollectionViewCell.swift in Sources */,
+				E307D33329E4E3A900D13DEE /* ProductCategoryCollectionViewCell.swift in Sources */,
 				E338CA5D29DF053A00E8309F /* CategoryCollectionViewCell.swift in Sources */,
 				E3EF86D929D8B09D008B5A94 /* OffersDetails.swift in Sources */,
+				E307400D29E6FC44007D2A60 /* ProductCategoryVC.swift in Sources */,
 				E338CA5629DF041A00E8309F /* CategoryDetails.swift in Sources */,
 				E30A882429D5D35300F1667A /* Fashion.xcdatamodeld in Sources */,
 				E338CA5129DF020F00E8309F /* CategoryVC.swift in Sources */,
 				E37D71F129D61E490076F6F0 /* LogInVC.swift in Sources */,
 				E39AE7D129D7287E0017B4E3 /* OnboardingSliderDetails.swift in Sources */,
+				E307D32C29E4E31100D13DEE /* ProductCategoryDetails.swift in Sources */,
 				E3A40E0029DC7A75000BC646 /* CheckMark.swift in Sources */,
 				E303499529DA256B00961022 /* FilterVC.swift in Sources */,
 				E30A881E29D5D35300F1667A /* ViewController.swift in Sources */,
