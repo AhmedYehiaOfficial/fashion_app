@@ -8,11 +8,8 @@
 import UIKit
 
 class ProductDeatailsVC: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       }
-    
-
+       
+    }
 }

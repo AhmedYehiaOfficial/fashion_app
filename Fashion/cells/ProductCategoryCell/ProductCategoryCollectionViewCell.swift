@@ -8,8 +8,8 @@
 import UIKit
 
 class ProductCategoryCollectionViewCell: UICollectionViewCell {
-    static let identifier = String(describing: ProductCategoryCollectionViewCell.self)
 
+    static let identifier = String(describing: ProductCategoryCollectionViewCell.self)
     @IBOutlet weak var productImg: UIImageView!
     @IBOutlet weak var productPrice: UILabel!
     @IBOutlet weak var productDescreption: UILabel!
