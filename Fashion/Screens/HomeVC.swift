@@ -43,6 +43,7 @@ class HomeVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSou
         
 
     }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == offersCollectionView{
            return offers.count
@@ -86,5 +87,32 @@ class HomeVC: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSou
         let nib = UINib(nibName: NewArrivalCollectionViewCell.identifier, bundle: nil)
         collectionView.register(nib,forCellWithReuseIdentifier: NewArrivalCollectionViewCell.identifier)
     }
+    //    MARK: Btn
     
+    @IBAction func filterBtn(_ sender: Any) {
+        
+    }
+  
+    @IBAction func homeBtn(_ sender: Any) {
+        let namestoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = namestoryboard.instantiateViewController(withIdentifier: HomeVC.ID) as! HomeVC
+            self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func cartBtn(_ sender: Any) {
+        let namestoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = namestoryboard.instantiateViewController(withIdentifier: CartVC.ID) as! CartVC
+            self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func notifiBtn(_ sender: Any) {
+    }
+    
+    @IBAction func profileBtn(_ sender: Any) {
+    }
+    
+    @IBAction func filterationBtn(_ sender: Any) {
+        let namestoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = namestoryboard.instantiateViewController(withIdentifier: FilterVC.ID) as! FilterVC
+            self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

@@ -8,10 +8,9 @@
 import UIKit
 
 class CartVC: ViewController,UICollectionViewDelegate,UICollectionViewDataSource{
-  
+    static let ID = String(describing: CartVC.self)
     @IBOutlet weak var cartCollectionView: UICollectionView!
     var cartProductDetails:[CartDetails] = []
-    
     let productImg = ["OfferImg","splashscreen","splashScreen1"]
     let productBrandName = ["Nike","Nike","Nike",]
     let productType = ["shoesessss","shoesessss","shoesesssss",]
